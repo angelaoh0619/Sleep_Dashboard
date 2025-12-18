@@ -2,7 +2,7 @@
 
 **🌐 [https://sleep-project.vercel.app](https://sleep-project.vercel.app)**
 
-Interactive web dashboard for visualizing and analyzing peronal sleep data from Galaxy Watch.
+Interactive web dashboard for visualizing and analyzing personal sleep data from Galaxy Watch.
 
 ---
 

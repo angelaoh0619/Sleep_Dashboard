@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Noto+Sans+KR&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0e100f;
+  /* GSAP Dark Background */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Lexend Deca', 'Noto Sans KR', sans-serif;
+}
+
+/* Language Toggle */
+.language-toggle {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.globe-icon {
+  color: rgba(255, 255, 255, 0.6);
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: lowercase;
+}
+
+.lang-btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.lang-btn.active {
+  color: #a78bfa;
+  background: rgba(167, 139, 250, 0.15);
+  font-weight: 700;
+}
+
+.lang-divider {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1400px;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Left Section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  color: white
+}
+
+.highlight {
+  color: #a78bfa;
+  background: linear-gradient(120deg, #a78bfa 0%, #c4b5fd 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #c4b5fd;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+}
+
+.description-bold {
+  font-size: 1.17rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* Decoration Area */
+.decoration-area {
+  margin-top: 4rem;
+  height: 250px;
+  position: relative;
+  width: 130%;
+  left: -15%;
+  overflow: visible;
+}
+
+.floating-element {
+  position: absolute;
+}
+
+/* Gradient Blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.3;
+  mix-blend-mode: screen;
+}
+
+.blob-1 {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, #a78bfa 0%, transparent 70%);
+  top: 10%;
+  left: 10%;
+}
+
+.blob-2 {
+  width: 300px;
+  height: 350px;
+  background: radial-gradient(circle, #8b5cf6 0%, transparent 70%);
+  top: 40%;
+  left: 55%;
+}
+
+.blob-3 {
+  width: 350px;
+  height: 250px;
+  background: radial-gradient(circle, #c4b5fd 0%, transparent 70%);
+  top: 60%;
+  left: 20%;
+}
+
+/* Floating Particles */
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(167, 139, 250, 0.6);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.8);
+}
+
+.particle-1 {
+  top: 35%;
+  left: 15%;
+}
+
+.particle-2 {
+  top: 45%;
+  left: 25%;
+}
+
+.particle-3 {
+  top: 60%;
+  left: 40%;
+}
+
+.particle-4 {
+  top: 75%;
+  left: 55%;
+}
+
+.particle-5 {
+  top: 85%;
+  left: 20%;
+}
+
+.particle-6 {
+  top: 30%;
+  left: 70%;
+}
+
+.particle-7 {
+  top: 50%;
+  left: 80%;
+}
+
+.particle-8 {
+  top: 65%;
+  left: 65%;
+}
+
+.particle-9 {
+  top: 80%;
+  left: 45%;
+}
+
+.particle-10 {
+  top: 90%;
+  left: 75%;
+}
+
+.particle-11 {
+  top: 40%;
+  left: 50%;
+}
+
+.particle-12 {
+  top: 55%;
+  left: 10%;
+}
+
+.particle-13 {
+  top: 70%;
+  left: 85%;
+}
+
+.particle-14 {
+  top: 95%;
+  left: 35%;
+}
+
+.particle-15 {
+  top: 25%;
+  left: 90%;
+}
+
+.particle-16 {
+  top: 27%;
+  left: 35%;
+}
+
+.particle-17 {
+  top: 43%;
+  left: 60%;
+}
+
+.particle-18 {
+  top: 57%;
+  left: 72%;
+}
+
+.particle-19 {
+  top: 73%;
+  left: 18%;
+}
+
+.particle-20 {
+  top: 83%;
+  left: 58%;
+}
+
+.particle-21 {
+  top: 97%;
+  left: 68%;
+}
+
+.particle-22 {
+  top: 33%;
+  left: 82%;
+}
+
+.particle-23 {
+  top: 63%;
+  left: 28%;
+}
+
+.particle-24 {
+  top: 47%;
+  left: 42%;
+}
+
+.particle-25 {
+  top: 77%;
+  left: 78%;
+}
+
+/* Minimal Star positioning */
+.star-1 {
+  top: 35%;
+  left: 25%;
+  opacity: 0.7;
+}
+
+.star-2 {
+  top: 75%;
+  left: 30%;
+  opacity: 0.5;
+}
+
+.star-3 {
+  top: 25%;
+  left: 80%;
+  opacity: 0.6;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #a78bfa;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.nav-card:hover {
+  background: rgba(167, 139, 250, 0.1);
+  border-color: #a78bfa;
+  transform: translateX(10px);
+}
+
+.card-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #a78bfa;
+  opacity: 0.5;
+  font-family: monospace;
+  margin-top: 0.2rem;
+}
+
+.card-content h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card-arrow {
+  font-size: 1.5rem;
+  color: #a78bfa;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  align-self: center;
+  margin-left: auto;
+}
+
+.nav-card:hover .card-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .header-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .main-title {
+    font-size: 3.5rem;
+  }
+
+  .decoration-area {
+    display: none;
+    /* Hide decoration on smaller screens to save space */
+  }
+}

@@ -39,8 +39,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/sleep-project.git
-cd sleep-project
+git clone https://github.com/angelaoh0619/Sleep_Dashboard.git
+cd Sleep_Dashboard
 ```
 
 2. Install dependencies:
@@ -107,7 +107,7 @@ This project is automatically deployed to Vercel. Any push to the main branch wi
 
 ### Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/sleep-project)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/angelaoh0619/Sleep_Dashboard)
 
 ## 🎯 Features in Detail
 
@@ -158,13 +158,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/YOUR_USERNAME/sleep-project/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/angelaoh0619/Sleep_Dashboard/issues).
 
 ## 👥 Author
 
 **Angela**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@angelaoh0619](https://github.com/angelaoh0619)
 
 ## 🙏 Acknowledgments
 

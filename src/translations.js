@@ -328,7 +328,7 @@ export const translations = {
             }
         },
         footer: {
-            copyright: "© 2025 Yoonjae Oh. All rights reserved."
+            copyright: "© 2025. All rights reserved."
         }
     }
 };
